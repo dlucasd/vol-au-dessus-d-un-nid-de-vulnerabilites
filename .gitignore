@@ -1,0 +1,7 @@
+.vscode
+.idea
+reveal.js**
+index.html
+courriers.csv
+
+**/src/test/resources/init_fat.sql

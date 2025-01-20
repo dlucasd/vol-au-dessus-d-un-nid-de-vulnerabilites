@@ -1,0 +1,65 @@
+== Fullstack BOM
+
+[.step]
+****
+ou xBOM
+****
+
+[.notes]
+--
+* CycloneDX est une norme de BOM fullstack
+* CycloneDX est orienté BOM depuis sa conception, ce qui fait un avantage sur SPDX
+* tout ce qui arrive par la suite est basé sur CycloneDX
+--
+
+=== Saas BOM
+
+[.step]
+* *cdxgen* de l'OWASP
+
+
+[.notes]
+--
+* recenser les services utilisés par votre application : Kafka, Postgresql, API externe type stripe, paypal etc ... authentification etc ...
+--
+
+=== Cryptography BOM
+
+[.step]
+* Algorithmes, certificats, clés, signatures ...
+* *CBOMkit* d'IBM
+* *cdxgen* de l'OWASP
+
+
+[.notes]
+--
+* Java (JCA, BouncyCastle) et Python (pyca/cryptography)
+* aide à la migration Cryptographique Post Quantique
+--
+
+=== Mais encore ...
+
+[.step]
+* HBOM
+* Formulation
+* MLBOM
+* ...
+
+
+=== Et SPDX ?
+
+[.notes]
+--
+* fonctionnent avec des profils
+* s'inspire des fonctionnalités de cycloneDX ...
+--
+
+[%notitle]
+=== Programme
+
+. Emergence des SBOM ✅
+. Outils de génération ✅
+. Outils d'agrégation et analyse ✅
+. L'univers des BOM ✅
+
+

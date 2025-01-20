@@ -1,0 +1,127 @@
+== Audit de sécurité
+
+[.notes]
+--
+* client sympa, il nous donne la liste des éléments qui seront audités
+* on regarde la partie logicielle et on s'interroge sur la mise à jour des dépendances
+* on l'a fait il n'y a pas si longtemps ... enfin, y'a quelques mois quand même
+* on se décide enfin à mettre en place un outil d'automatisation des mises à jour des dépendances
+--
+
+[%notitle]
+=== Renovate
+
+image::images/renovate.png[]
+
+[.notes]
+--
+* dans notre contexte on choisi Renovate
+* il existe aussi dependabot
+* scan régulièrement les dépendances, recherche des mises à jour, création de PR
+--
+
+[transition=none]
+=== !
+
+
+image::images/prod.svg[]
+
+[.notes]
+--
+* on met en prod
+* dépendances à jour : OK
+--
+
+[transition=none]
+=== !
+
+image::images/prod_vuln.svg[]
+
+[.notes]
+--
+* pas le même cycle de vie
+* difficile de convaincre le client :
+** d'investir du temps sur la mise à jour des dépendances
+** de relivrer au risque d'avoir des régressions !
+* on s'est dit qu'il fallait trouver un outil qui nous alerte en cas de vulnérabilités
+--
+
+=== Outils de scan de vulnérabilités
+
+[.step]
+* IDE
+* analyse statique
+* pipeline
+* registres d'artéfacts
+
+
+[.notes]
+--
+* on est déjà submergés en réalité
+* c'est déjà bien mais cela n'est pas suffisant
+--
+
+=== Besoin
+
+[.step]
+* avoir une vision globale de la production
+* scan régulier des vulnérabilités
+* alertes configurables en fonction de la sévérité
+
+=== Software Bill of Materials - SBOM
+
+[.notes]
+--
+* c'est ainsi que j'ai découvert l'univers des SBOM
+* SBOM : inventaire des composants logiciels utilisés dans votre application
+* c'est ce dont on va parler aujourd'hui
+* mais avant ça, je me présente
+--
+
+[%notitle.columns.is-vcentered.transparency]
+=== Présentation
+
+[.column.has-text-right.is-two-fifth]
+****
+
+[.important-text]
+--
+*Damien Lucas*
+
+Architecte
+--
+
+image:images/onepoint.png[width=200]
+
+[.vertical-align-middle]
+icon:github[] dlucasd
+
+****
+
+[.column]
+--
+image::images/dlucas.png[]
+--
+
+
+[transition=none]
+=== Programme
+
+[.step]
+. Emergence des SBOM
+. Outils de génération
+. Outils d'agrégation et analyse
+. L'univers des BOM
+
+[transition=none]
+=== Programme
+
+. *Emergence des SBOM*
+. Outils de génération
+. Outils d'agrégation et analyse
+. L'univers des BOM
+
+[.notes]
+--
+* Commençons par voir d'où cela vient
+--

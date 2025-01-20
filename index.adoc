@@ -1,0 +1,25 @@
+= Vol au-dessus d'un nid de vulnérabilités
+:docinfo: private
+:source-highlighter: highlight.js
+:autofit-option:
+:icons: font
+:font-awesome-version: 6.7.2
+:revealjs_theme: beige
+:revealjs_slideNumber: true
+:revealjs_history: true
+:revealjs_pdfseparatefragments: false
+:customcss: css/meetup.css
+
+include::01_intro.adoc[]
+include::02_pourquoi_sbom.adoc[]
+include::03_generation_sbom.adoc[]
+include::04_dependency_track.adoc[]
+include::05_xbom.adoc[]
+include::06_conclusion.adoc[]
+
+
+//sabrer l'artifact seul
+//9min de démo
+
+
+

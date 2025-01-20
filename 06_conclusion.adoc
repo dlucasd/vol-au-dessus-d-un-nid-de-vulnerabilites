@@ -1,0 +1,43 @@
+== Que dit l'Europe ?
+
+[.step]
+* 2020 - Network and Information Security 2 (NIS2)
+* 2022 - Cyber Resilience Act (CRA)
+
+[.notes]
+--
+* NIS2 : voté en 2022, directive européenne, insiste sur la nécessité pour les entreprises de gérer les risques liés à la cybersécurité
+* CRA : pas encore voté. stipule que les fabricants doivent fournir des informations sur les composants logiciels de leurs produits
+* face à cela, voici mes précos
+--
+
+=== Préconisations
+
+[.step]
+. N'attendez pas le vote du CRA pour générer vos SBOM
+. Optez pour CycloneDX
+. Couplez scan de dépendances et conteneurs
+. En option : Déployez Dependency-Track
+
+[.notes]
+--
+* surtout si vous travaillez dans des secteurs critiques :
+* médical, énergie, finance, sécurité nationale, militaire
+--
+
+
+[.columns.is-vcentered]
+=== Merci 🙏
+
+[.column]
+image::images/qr-code-feedback.svg[width=60%]
+
+
+[.column]
+image::images/qr-code-github.svg[width=60%]
+
+
+[.notes]
+--
+* https://q-r-code.fr/
+--
