@@ -1,0 +1,8 @@
+
+body::after {
+    content: url("../images/logo_event.png");
+    position: fixed;
+    left: -120px;
+    bottom: -100px;
+    transform: scale(0.3);
+}
