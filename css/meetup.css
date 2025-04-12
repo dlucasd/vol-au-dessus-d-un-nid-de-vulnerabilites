@@ -1,12 +1,49 @@
-
-body::after {
-    content: url("../images/logo_event.png");
-    position: fixed;
-    left: -120px;
-    bottom: -100px;
-    transform: scale(0.3);
+@font-face {
+    font-family: 'Old Maquine Caps';
+    src:
+            url("../fonts/OldMaquineCaps.ttf") format("opentype"),
+            url("../fonts/OldMaquineCaps.otf") format("opentype"),
+            url("../fonts/OldMaquineCaps.woff") format("woff");
+}
+@font-face {
+    font-family: 'Poppins';
+    src:
+            url("../fonts/Poppins-Medium.ttf") format("opentype");
 }
 
+body::after {
+    content: url("../images/logo_event.svg");
+    position: fixed;
+    left: -200px;
+    bottom: -30px;
+    transform: scale(0.5);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.reveal-viewport {
+    background: rgb(247, 242, 211);
+    background: -moz-radial-gradient(center, circle cover, rgb(255, 255, 255) 0%, rgb(219, 247, 211) 100%);
+}
+
+.reveal h1 {
+    font-family: 'Old Maquine Caps', serif;
+    font-size: 90px;
+    color: #85BD39;
+    text-shadow: 1px -1px 0 #000, 1px -1px 26px #000, 1px 1px 14px #000, 1px 1px 2px #000;
+}
+
+.reveal h2 {
+    font-family: 'Poppins', serif;
+    font-size: 1.6em;
+}
+
+.reveal .progress {
+    height: 5px;
+    color: #85BD39;
+}
+.reveal .controls-arrow {
+    color: #85BD39;
+}
 
 .large-code-exemple pre.code-wrapper {
     width: 100%;
