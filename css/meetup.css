@@ -6,3 +6,13 @@ body::after {
     bottom: -100px;
     transform: scale(0.3);
 }
+
+
+.large-code-exemple pre.code-wrapper {
+    width: 100%;
+}
+
+.large-code-exemple pre.code-wrapper code {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
