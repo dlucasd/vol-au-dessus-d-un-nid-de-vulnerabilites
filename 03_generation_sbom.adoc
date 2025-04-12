@@ -41,6 +41,9 @@ image::images/tools_center.png[]
 
 === Docker Scout
 
+[.large-code-exemple]
+--
+
 [source,bash, highlight=1..3|4..13|14..19|21..23]
 ----
 --> docker scout cves [IMAGE]
@@ -68,6 +71,8 @@ View base image update recommendations
 → docker scout recommendations [IMAGE]
 ----
 
+--
+
 [.notes]
 --
 * Possibilité d'enroller votre propre registre,
@@ -83,6 +88,7 @@ docker scout sbom --format cyclonedx [IMAGE]
 ----
 
 === Github Actions
+
 
 [source,yaml]
 ----
@@ -143,6 +149,9 @@ container_scanning:
 
 === Merge de SBOM
 
+[.large-code-exemple]
+--
+
 [source,yaml, highlight=1..3|4..17]
 ----
 include:
@@ -163,6 +172,8 @@ merge sboms:
     paths:
       - merged-sbom.json
 ----
+
+--
 
 [%notitle]
 === Scan dépendances vs conteneurs

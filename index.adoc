@@ -18,8 +18,4 @@ include::05_xbom.adoc[]
 include::06_conclusion.adoc[]
 
 
-//sabrer l'artifact seul
 //9min de démo
-
-
-

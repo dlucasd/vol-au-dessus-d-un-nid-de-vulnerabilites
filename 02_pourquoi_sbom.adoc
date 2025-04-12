@@ -92,6 +92,9 @@ image:images/spdx.svg[]
 
 === Exemple SPDX
 
+[.large-code-exemple]
+--
+
 [source,json, highlight=1..11|12..21|22..30|32..44]
 ----
 {
@@ -142,6 +145,8 @@ image:images/spdx.svg[]
 }
 ----
 
+--
+
 [.notes]
 --
 * autre format : YAML, Key-Value, RDF/XML
@@ -171,6 +176,9 @@ image:images/cyclonedx.svg[]
 
 
 === Exemple CycloneDX
+
+[.large-code-exemple]
+--
 
 [source,json, highlight=2..13|14..25|27..39|54..71]
 ----
@@ -250,6 +258,8 @@ image:images/cyclonedx.svg[]
   ]
 }
 ----
+
+--
 
 [.notes]
 --
