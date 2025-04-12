@@ -47,8 +47,8 @@ N’attendez pas plus longtemps pour ajouter une couche de sécurité logicielle
 
 ### Outils
 
-SPDX : https://spdx.dev/use/spdx-tools/
-CycloneDX : https://cyclonedx.org/tool-center/
+* SPDX : https://spdx.dev/use/spdx-tools/
+* CycloneDX : https://cyclonedx.org/tool-center/
 
 ### Support Spring Boot
 
@@ -58,4 +58,10 @@ CycloneDX : https://cyclonedx.org/tool-center/
 
 * https://quarkus.io/guides/cyclonedx
 * https://quarkus.io/extensions/io.quarkus/quarkus-cyclonedx/
+
+## Conférences
+
+* [Slides TNT2025](https://dlucasd.github.io/vol-au-dessus-d-un-nid-de-vulnerabilites/tnt/#/)
+
+
 

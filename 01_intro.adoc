@@ -68,7 +68,7 @@ image::images/prod_vuln.svg[]
 * scan régulier des vulnérabilités
 * alertes configurables en fonction de la sévérité
 
-=== Software Bill of Materials - SBOM
+=== Software Bill of Materials SBOM
 
 [.notes]
 --
@@ -89,6 +89,8 @@ image::images/prod_vuln.svg[]
 *Damien Lucas*
 
 Architecte
+
+Tech Lead
 --
 
 image:images/onepoint.png[width=200]

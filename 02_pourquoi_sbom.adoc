@@ -4,7 +4,7 @@
 [.step]
 image::images/solarwinds.png[]
 
-SolwarWinds
+SolarWinds
 
 [.notes]
 --
@@ -31,15 +31,14 @@ SolwarWinds
 [%notitle]
 === Décret sur l'amélioration de la cybersécurité nationale
 
-image::images/uncle_biden.jpg[background, size=contain]
+image::images/uncle_biden.png[background, size=contain]
 
 [.notes]
 --
 * Mai 2021, Décret sur l'amélioration de la cybersécurité nationale
-* Software Bill of Materials - SBOM
 * but : améliorer la sécurité des logiciels utilisés par le gouvernement fédéral
-* rendre obligatoire
-* être transparent sur les dépendances utilisées
+* rendre obligatoire : les dépendances utilisées
+* Software Bill of Materials - SBOM
 * surtout quand on sait qu'environ 70 à 90% du code est du code open source selon Linux Fondation
 * sécuriser la chaîne d'approvisionnement logicielle
 --

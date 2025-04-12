@@ -1,0 +1,2027 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:551e80a3-7321-4694-98e1-c04e5cb2d97b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-11-14T16:58:36Z",
+    "tools": [
+      {
+        "vendor": "GitLab",
+        "name": "Gemnasium",
+        "version": "5.8.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "GitLab",
+        "email": "support@gitlab.com"
+      }
+    ],
+    "properties": [
+      {
+        "name": "gitlab:dependency_scanning:input_file:path",
+        "value": "app/portail/pom.xml"
+      },
+      {
+        "name": "gitlab:dependency_scanning:package_manager:name",
+        "value": "maven"
+      },
+      {
+        "name": "gitlab:meta:schema_version",
+        "value": "1"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "antlr/antlr",
+      "version": "2.7.7",
+      "purl": "pkg:maven/antlr/antlr@2.7.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/antlr/antlr@2.7.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "bouncycastle/bcprov-jdk15",
+      "version": "140",
+      "purl": "pkg:maven/bouncycastle/bcprov-jdk15@140",
+      "type": "library",
+      "bom-ref": "pkg:maven/bouncycastle/bcprov-jdk15@140",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback/logback-classic",
+      "version": "1.5.11",
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.5.11",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.5.11",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ch.qos.logback/logback-core",
+      "version": "1.5.11",
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.11",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.5.11",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.ethlo.time/itu",
+      "version": "1.10.2",
+      "purl": "pkg:maven/com.ethlo.time/itu@1.10.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.ethlo.time/itu@1.10.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core/jackson-annotations",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.17.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.17.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core/jackson-core",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.17.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.17.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.core/jackson-databind",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.dataformat/jackson-dataformat-xml",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml@2.17.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml@2.17.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.dataformat/jackson-dataformat-yaml",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.datatype/jackson-datatype-jdk8",
+      "version": "2.18.1",
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.18.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.18.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.datatype/jackson-datatype-jsr310",
+      "version": "2.18.1",
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.18.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.18.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.jackson.module/jackson-module-parameter-names",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.17.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.17.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml.woodstox/woodstox-core",
+      "version": "6.7.0",
+      "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.7.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.woodstox/woodstox-core@6.7.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.fasterxml/classmate",
+      "version": "1.7.0",
+      "purl": "pkg:maven/com.fasterxml/classmate@1.7.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml/classmate@1.7.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.jayway.jsonpath/json-path",
+      "version": "2.9.0",
+      "purl": "pkg:maven/com.jayway.jsonpath/json-path@2.9.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.jayway.jsonpath/json-path@2.9.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.networknt/json-schema-validator",
+      "version": "1.5.3",
+      "purl": "pkg:maven/com.networknt/json-schema-validator@1.5.3",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.networknt/json-schema-validator@1.5.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.sun.istack/istack-commons-runtime",
+      "version": "4.1.2",
+      "purl": "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.sun.xml.bind/jaxb-core",
+      "version": "4.0.5",
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.sun.xml.bind/jaxb-impl",
+      "version": "4.0.5",
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.unboundid/unboundid-ldapsdk",
+      "version": "6.0.11",
+      "purl": "pkg:maven/com.unboundid/unboundid-ldapsdk@6.0.11",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.unboundid/unboundid-ldapsdk@6.0.11",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.acme.project/project-core",
+      "version": "4.7.3",
+      "purl": "pkg:maven/com.acme.project/project-core@4.7.3",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.acme.project/project-core@4.7.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.acme.project/project-jpa",
+      "version": "4.7.3",
+      "purl": "pkg:maven/com.acme.project/project-jpa@4.7.3",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.acme.project/project-jpa@4.7.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "com.zaxxer/HikariCP",
+      "version": "5.1.0",
+      "purl": "pkg:maven/com.zaxxer/HikariCP@5.1.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.zaxxer/HikariCP@5.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "commons-cli/commons-cli",
+      "version": "1.9.0",
+      "purl": "pkg:maven/commons-cli/commons-cli@1.9.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-cli/commons-cli@1.9.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "commons-collections/commons-collections",
+      "version": "3.2.1",
+      "purl": "pkg:maven/commons-collections/commons-collections@3.2.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "commons-lang/commons-lang",
+      "version": "2.4",
+      "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-lang/commons-lang@2.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "dom4j/dom4j",
+      "version": "1.6.1",
+      "purl": "pkg:maven/dom4j/dom4j@1.6.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/dom4j/dom4j@1.6.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "io.micrometer/micrometer-commons",
+      "version": "1.13.6",
+      "purl": "pkg:maven/io.micrometer/micrometer-commons@1.13.6",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micrometer/micrometer-commons@1.13.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "io.micrometer/micrometer-observation",
+      "version": "1.13.6",
+      "purl": "pkg:maven/io.micrometer/micrometer-observation@1.13.6",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.micrometer/micrometer-observation@1.13.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "io.smallrye/jandex",
+      "version": "3.2.0",
+      "purl": "pkg:maven/io.smallrye/jandex@3.2.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.smallrye/jandex@3.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.activation/jakarta.activation-api",
+      "version": "2.1.3",
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.3",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.annotation/jakarta.annotation-api",
+      "version": "2.1.1",
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.el/jakarta.el-api",
+      "version": "5.0.0",
+      "purl": "pkg:maven/jakarta.el/jakarta.el-api@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.el/jakarta.el-api@5.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.inject/jakarta.inject-api",
+      "version": "2.0.1",
+      "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.persistence/jakarta.persistence-api",
+      "version": "3.1.0",
+      "purl": "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.1.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api",
+      "version": "3.0.2",
+      "purl": "pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@3.0.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@3.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.servlet/jakarta.servlet-api",
+      "version": "6.0.0",
+      "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.transaction/jakarta.transaction-api",
+      "version": "2.0.1",
+      "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jakarta.xml.bind/jakarta.xml.bind-api",
+      "version": "4.0.2",
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "net.bytebuddy/byte-buddy",
+      "version": "1.14.19",
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.14.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy@1.14.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "net.bytebuddy/byte-buddy-agent",
+      "version": "1.14.19",
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.14.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "net.minidev/accessors-smart",
+      "version": "2.5.1",
+      "purl": "pkg:maven/net.minidev/accessors-smart@2.5.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.minidev/accessors-smart@2.5.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "net.minidev/json-smart",
+      "version": "2.5.1",
+      "purl": "pkg:maven/net.minidev/json-smart@2.5.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.minidev/json-smart@2.5.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.antlr/antlr4-runtime",
+      "version": "4.13.0",
+      "purl": "pkg:maven/org.antlr/antlr4-runtime@4.13.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.antlr/antlr4-runtime@4.13.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.commons/commons-lang3",
+      "version": "3.17.0",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.17.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.17.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-avl-partition",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-avl-partition@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-avl-partition@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-core",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-core@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-core@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-core-api",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-core-api@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-core-api@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-core-avl",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-core-avl@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-core-avl@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-core-constants",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-core-constants@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-core-constants@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-core-entry",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-core-entry@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-core-entry@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-core-jndi",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-core-jndi@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-core-jndi@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-core-mock",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-core-mock@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-core-mock@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-i18n",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-i18n@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-i18n@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-jdbm",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-jdbm@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-jdbm@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-jdbm-partition",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-jdbm-partition@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-jdbm-partition@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-jdbm-store",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-jdbm-store@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-jdbm-store@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-kerberos-shared",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-kerberos-shared@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-kerberos-shared@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-ldif-partition",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-ldif-partition@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-ldif-partition@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-protocol-ldap",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-protocol-ldap@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-protocol-ldap@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-protocol-shared",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-protocol-shared@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-protocol-shared@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-server-jndi",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-server-jndi@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-server-jndi@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-utils",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-utils@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-utils@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-xdbm-base",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-xdbm-base@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-xdbm-base@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-xdbm-search",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-xdbm-search@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-xdbm-search@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.server/apacheds-xdbm-tools",
+      "version": "1.5.7",
+      "purl": "pkg:maven/org.apache.directory.server/apacheds-xdbm-tools@1.5.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.server/apacheds-xdbm-tools@1.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-asn1",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-asn1@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-asn1@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-asn1-codec",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-asn1-codec@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-asn1-codec@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-cursor",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-cursor@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-cursor@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-dsml-parser",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-dsml-parser@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-dsml-parser@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-i18n",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-i18n@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-i18n@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap-constants",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap-constants@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap-constants@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap-converter",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap-converter@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap-converter@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap-jndi",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap-jndi@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap-jndi@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap-schema",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap-schema@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap-schema@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap-schema-dao",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap-schema-dao@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap-schema-dao@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap-schema-loader",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap-schema-loader@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap-schema-loader@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldap-schema-manager",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldap-schema-manager@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldap-schema-manager@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.directory.shared/shared-ldif",
+      "version": "0.9.19",
+      "purl": "pkg:maven/org.apache.directory.shared/shared-ldif@0.9.19",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.directory.shared/shared-ldif@0.9.19",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.logging.log4j/log4j-api",
+      "version": "2.23.1",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.23.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.23.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.logging.log4j/log4j-to-slf4j",
+      "version": "2.23.1",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.23.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.23.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.mina/mina-core",
+      "version": "2.0.0-RC1",
+      "purl": "pkg:maven/org.apache.mina/mina-core@2.0.0-RC1",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.mina/mina-core@2.0.0-RC1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat.embed/tomcat-embed-core",
+      "version": "10.1.31",
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.31",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.31",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat.embed/tomcat-embed-el",
+      "version": "10.1.31",
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@10.1.31",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@10.1.31",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apache.tomcat.embed/tomcat-embed-websocket",
+      "version": "10.1.31",
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@10.1.31",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@10.1.31",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.apiguardian/apiguardian-api",
+      "version": "1.1.2",
+      "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.aspectj/aspectjweaver",
+      "version": "1.9.22.1",
+      "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.22.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.22.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.assertj/assertj-core",
+      "version": "3.25.3",
+      "purl": "pkg:maven/org.assertj/assertj-core@3.25.3",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.assertj/assertj-core@3.25.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.checkerframework/checker-qual",
+      "version": "3.42.0",
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.42.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.42.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.codehaus.woodstox/stax2-api",
+      "version": "4.2.2",
+      "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.woodstox/stax2-api@4.2.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.eclipse.angus/angus-activation",
+      "version": "2.0.2",
+      "purl": "pkg:maven/org.eclipse.angus/angus-activation@2.0.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.angus/angus-activation@2.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.glassfish.jaxb/jaxb-core",
+      "version": "4.0.5",
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.glassfish.jaxb/jaxb-runtime",
+      "version": "4.0.5",
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.glassfish.jaxb/txw2",
+      "version": "4.0.5",
+      "purl": "pkg:maven/org.glassfish.jaxb/txw2@4.0.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/txw2@4.0.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.glassfish.web/jakarta.servlet.jsp.jstl",
+      "version": "3.0.1",
+      "purl": "pkg:maven/org.glassfish.web/jakarta.servlet.jsp.jstl@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.web/jakarta.servlet.jsp.jstl@3.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.hibernate.common/hibernate-commons-annotations",
+      "version": "7.0.3.Final",
+      "purl": "pkg:maven/org.hibernate.common/hibernate-commons-annotations@7.0.3.Final",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hibernate.common/hibernate-commons-annotations@7.0.3.Final",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.hibernate.orm/hibernate-core",
+      "version": "6.6.2.Final",
+      "purl": "pkg:maven/org.hibernate.orm/hibernate-core@6.6.2.Final",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hibernate.orm/hibernate-core@6.6.2.Final",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.jboss.logging/jboss-logging",
+      "version": "3.5.3.Final",
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.5.3.Final",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging@3.5.3.Final",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.jupiter/junit-jupiter-api",
+      "version": "5.10.5",
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.jupiter/junit-jupiter-engine",
+      "version": "5.10.5",
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.jupiter/junit-jupiter-params",
+      "version": "5.10.5",
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.platform/junit-platform-commons",
+      "version": "1.10.5",
+      "purl": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.10.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.platform/junit-platform-engine",
+      "version": "1.10.5",
+      "purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.10.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.junit.platform/junit-platform-launcher",
+      "version": "1.10.5",
+      "purl": "pkg:maven/org.junit.platform/junit-platform-launcher@1.10.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-launcher@1.10.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.mockito/mockito-core",
+      "version": "5.14.2",
+      "purl": "pkg:maven/org.mockito/mockito-core@5.14.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-core@5.14.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.mockito/mockito-inline",
+      "version": "5.2.0",
+      "purl": "pkg:maven/org.mockito/mockito-inline@5.2.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-inline@5.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.mockito/mockito-junit-jupiter",
+      "version": "5.11.0",
+      "purl": "pkg:maven/org.mockito/mockito-junit-jupiter@5.11.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-junit-jupiter@5.11.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.objenesis/objenesis",
+      "version": "3.3",
+      "purl": "pkg:maven/org.objenesis/objenesis@3.3",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.objenesis/objenesis@3.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.opentest4j/opentest4j",
+      "version": "1.3.0",
+      "purl": "pkg:maven/org.opentest4j/opentest4j@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.opentest4j/opentest4j@1.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.ow2.asm/asm",
+      "version": "9.6",
+      "purl": "pkg:maven/org.ow2.asm/asm@9.6",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm@9.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.postgresql/postgresql",
+      "version": "42.7.4",
+      "purl": "pkg:maven/org.postgresql/postgresql@42.7.4",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.postgresql/postgresql@42.7.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j/jul-to-slf4j",
+      "version": "2.0.16",
+      "purl": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.16",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.16",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.slf4j/slf4j-api",
+      "version": "2.0.16",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-autoconfigure",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-aop",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-aop@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-aop@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-data-jpa",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-hateoas",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-hateoas@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-hateoas@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-jdbc",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-json",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-json@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-json@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-logging",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-security",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-security@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-security@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-tomcat",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot/spring-boot-starter-web",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-web@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.cloud/spring-cloud-gateway-mvc",
+      "version": "4.1.5",
+      "purl": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-mvc@4.1.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-mvc@4.1.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.data/spring-data-commons",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.data/spring-data-commons@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.data/spring-data-commons@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.data/spring-data-jpa",
+      "version": "3.3.5",
+      "purl": "pkg:maven/org.springframework.data/spring-data-jpa@3.3.5",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.data/spring-data-jpa@3.3.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.hateoas/spring-hateoas",
+      "version": "2.3.3",
+      "purl": "pkg:maven/org.springframework.hateoas/spring-hateoas@2.3.3",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.hateoas/spring-hateoas@2.3.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.ldap/spring-ldap-core",
+      "version": "3.2.7",
+      "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@3.2.7",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@3.2.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.plugin/spring-plugin-core",
+      "version": "3.0.0",
+      "purl": "pkg:maven/org.springframework.plugin/spring-plugin-core@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.plugin/spring-plugin-core@3.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.security/spring-security-config",
+      "version": "6.3.4",
+      "purl": "pkg:maven/org.springframework.security/spring-security-config@6.3.4",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-config@6.3.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.security/spring-security-core",
+      "version": "6.3.4",
+      "purl": "pkg:maven/org.springframework.security/spring-security-core@6.3.4",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@6.3.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.security/spring-security-crypto",
+      "version": "6.3.4",
+      "purl": "pkg:maven/org.springframework.security/spring-security-crypto@6.3.4",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-crypto@6.3.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.security/spring-security-ldap",
+      "version": "6.3.4",
+      "purl": "pkg:maven/org.springframework.security/spring-security-ldap@6.3.4",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-ldap@6.3.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.security/spring-security-web",
+      "version": "6.3.4",
+      "purl": "pkg:maven/org.springframework.security/spring-security-web@6.3.4",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-web@6.3.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-aop",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-aop@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-aspects",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-aspects@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-aspects@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-beans",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-beans@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-context",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-context@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-context@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-core",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-core@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-expression",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-expression@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-jcl",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-jcl@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-jcl@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-jdbc",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-jdbc@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-jdbc@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-orm",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-orm@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-orm@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-tx",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-tx@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-tx@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-web",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-web@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-web@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.springframework/spring-webmvc",
+      "version": "6.1.14",
+      "purl": "pkg:maven/org.springframework/spring-webmvc@6.1.14",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-webmvc@6.1.14",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "org.yaml/snakeyaml",
+      "version": "2.2",
+      "purl": "pkg:maven/org.yaml/snakeyaml@2.2",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@2.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "xml-apis/xml-apis",
+      "version": "1.0.b2",
+      "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2",
+      "type": "library",
+      "bom-ref": "pkg:maven/xml-apis/xml-apis@1.0.b2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "xpp3/xpp3",
+      "version": "1.1.4c",
+      "purl": "pkg:maven/xpp3/xpp3@1.1.4c",
+      "type": "library",
+      "bom-ref": "pkg:maven/xpp3/xpp3@1.1.4c",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,8 @@
 :revealjs_history: true
 :revealjs_pdfseparatefragments: false
 :customcss: css/meetup.css
+:title-slide-background-image: images/background.jpg
+// :title-slide-background-size: 90%
 
 include::01_intro.adoc[]
 include::02_pourquoi_sbom.adoc[]
